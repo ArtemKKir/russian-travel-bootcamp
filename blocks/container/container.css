@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: calc(1280px - 148px*2);
+    margin-left: 148px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: calc(1024px - 48px*2);
+        margin-left: 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: calc(768px - 24px*2);
+        margin-left: 24px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 288px;
+        margin-left: 16px;
+    }
+}

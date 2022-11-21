@@ -1,0 +1,15 @@
+.header__lang-link {
+    max-width: 30px;
+    max-height: 28px;    
+    color: #FFFFFF;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.header__lang-link:last-child {
+    margin: 0 0 0 18px;
+}
+
+.header__lang-link:visited {
+    text-decoration: underline;
+}
