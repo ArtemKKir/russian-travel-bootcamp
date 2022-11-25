@@ -2,7 +2,6 @@
     padding-top: 28px;
     margin: 0 auto;
     max-width: calc(1280px - 48px*2);
-    max-height: 52px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

@@ -3,15 +3,24 @@
     flex-direction: column;
     align-content: flex-start;
     max-width: 690px;
+    margin-left: 148px;
 }
 
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: calc(1024px - 48px*2);
+        margin-left: 48px;
+    }
+}
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 93vw;
+        margin-left: 24px;
     }
 }
 @media screen and (max-width: 320px) {
     .intro {
         max-width: 288px;
+        margin-left: 16px;
     }
 }

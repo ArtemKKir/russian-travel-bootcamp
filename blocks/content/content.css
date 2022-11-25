@@ -9,11 +9,19 @@
 
 @media screen and (max-width: 768px) {
     .content {
-        row-gap: 88px;
+        row-gap: 84px;
+    }
+
+    .content:nth-child(4) {
+        row-gap: 90px;
     }
 }
 @media screen and (max-width: 320px) {
     .content {
         row-gap: 64px;
+    }
+
+    .content:nth-child(4) {
+        row-gap: 66px;
     }
 } 
