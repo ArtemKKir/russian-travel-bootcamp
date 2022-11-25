@@ -8,11 +8,13 @@
         max-width: calc(1024px - 48px*2);
     }
 }
+
 @media screen and (max-width: 768px) {
     .places {
         max-width: calc(768px - 24px*2);
     }
 }
+
 @media screen and (max-width: 320px) {
     .places {
         max-width: calc(320px);

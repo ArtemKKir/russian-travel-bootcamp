@@ -12,19 +12,19 @@
     .header {
         max-width: calc(1024px - 48px*2);
     }
-    }
-    
-    @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
     .header {
         max-width: calc(768px - 24px*2);
         margin: 0 24px 0;
     }
-    }
-    
-    @media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 320px) {
     .header {
         max-width: calc(320px - 16px*2);
         margin: 0 16px 0;
         padding-top: 16px;
     }
-    }
+}

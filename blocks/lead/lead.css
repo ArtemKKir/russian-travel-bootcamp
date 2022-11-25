@@ -12,12 +12,14 @@
         max-width: calc(1024px - 48px*2);
     }
 }
+
 @media screen and (max-width: 768px) {
     .lead {
         margin: 48px 0 0;
         max-width: 768px;
     }
 }
+
 @media screen and (max-width: 320px) {
     .lead {
         max-width: 320px;
